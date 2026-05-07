@@ -1,0 +1,65 @@
+/* Configurações Gerais */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fdf5e6; /* Creme neutro */
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Títulos */
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #d35400; /* Laranja cenoura */
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+/* Conteúdo Principal */
+main {
+    max-width: 800px;
+    margin: 0 auto; /* Centraliza a página */
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Imagem Responsiva */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Listas */
+ul, ol {
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 10px; /* Espaçamento confortável */
+}
+
+/* Botão */
+button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #4e342e; /* Marrom chocolate */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #6d4c41;
+}
